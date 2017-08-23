@@ -56,7 +56,7 @@
   "outputs": {
     "static-ip": {
       "type": "string",
-      "value": "parameters('ipAddress')"
+      "value": "[parameters('ipAddress')]"
     }
   }
 }
